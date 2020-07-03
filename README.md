@@ -17,3 +17,6 @@ ConvertTo-SecureString 'Hello' -AsPlainText | ConvertFrom-SecureString
 
 ### Output
 This sample saves the result to a CSV file, you could very easily write it to a database or email it as you please.
+
+### Tests
+I have tested this code using Powershell 7, but it should work on Powershell 5.x as well (test in your test environment)
