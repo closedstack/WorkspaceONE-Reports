@@ -15,5 +15,5 @@ This is how you convert a string to a SecureString. Keep in mind that it can onl
 
 ConvertTo-SecureString 'Hello' -AsPlainText | ConvertFrom-SecureString 
 
-#Output
+### Output
 This sample saves the result to a CSV file, you could very easily write it to a database or email it as you please.
